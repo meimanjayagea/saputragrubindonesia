@@ -17,11 +17,11 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
+      <Link color="inherit" href="https://saputragrubindonesia.meiman17.repl.co/">
+        Saputra Grup Indonesia
+      </Link>
       {new Date().getFullYear()}
-      {'.'}
+  
     </Typography>
   );
 }
