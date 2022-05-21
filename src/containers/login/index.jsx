@@ -46,7 +46,7 @@ const login = () => {
             Saputra Grub Indonesia
           </Label>
         </Box>
-          <Label align={"center"}>Masukkan Username dan Kata Sandi untuk melanjutkan</Label>
+          <Label align={"center"}>Silahkan Masukkan Username dan Password</Label>
         <Box
           mb="3"
           display="flex"
