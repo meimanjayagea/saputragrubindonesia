@@ -38,7 +38,7 @@ const StyledInput = withStyles({
 const TextInput = ({ placeholder, caption, value, onChange, disabled, onFocus, type }) => {
   return (
     <div>
-      <Label color="#2B2F3C" size={13} style={{paddingBottom: 5}}>{caption}</Label>
+      <Label color="#2B2F3C" size={13} style={{paddingBottom: 5, fontSize:"15px"}}>{caption}</Label>
       <StyledInput 
         fullWidth 
         disabled={disabled}
