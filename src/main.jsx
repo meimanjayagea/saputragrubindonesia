@@ -5,8 +5,7 @@ import Login from './containers/login'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Login/>
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 )
