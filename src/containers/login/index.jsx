@@ -15,11 +15,11 @@ const login = () => {
       <Box
         boxShadow={3}
         style={{
-          zIndex: "99",
-          display: "inline-block",
-          justifyContent: "center",
-          margin: "25px",
-          width: "600px",
+          zIndex:"99",
+          direction:"column",
+          justify:"center",
+          alignItems:"center",
+          width: "35vw",
           height: "530px",
           background: "#FFF5EE",
           border: "1px solid #ee8448",
@@ -43,7 +43,7 @@ const login = () => {
           display="flex"
         >
           <Label size="40px" weight="600">
-            Saputra Grub Indonesia
+            Saputra Group Indonesia
           </Label>
         </Box>
           <Label align={"center"}>Silahkan Masukkan Username dan Password</Label>
@@ -51,7 +51,7 @@ const login = () => {
           mb="3"
           display="flex"
           justifyContent="center"
-          marginX="70px"
+          marginX="60px"
           marginTop="20px"
           marginBottom="25px"
           borderRadius="10px "
@@ -90,17 +90,17 @@ const login = () => {
         </Box>
 
         <Box
-          padding="0 70px"
+          padding="0 60px"
           spacing={3}
           direction={"column"}
           justify={"center"}
           alignItems={"center"}
         >
           <Box>
-            <TextField caption="Username" placeholder={"Username"}></TextField>
+            <TextField caption="Username :" placeholder={"Username"}></TextField>
           </Box>
           <Box marginY="15px">
-            <TextField caption="Password" placeholder={"Password"} type={"password"}></TextField>
+            <TextField caption="Password :" placeholder={"Password"} type={"password"}></TextField>
           </Box>
           <Grid item xs={12}>
             <Label>Lupa Password</Label>
@@ -132,6 +132,7 @@ const useStyles = makeStyles({
     height: "100vh",
     justifyContent: "center",
     alignItems: "center",
+    position: "relative",
   },
 });
 export default login;
