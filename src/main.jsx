@@ -1,11 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import Login from './containers/login'
+import React from "react";
+import ReactDOM from "react-dom";
+// import "./index.css";
+import { ThemeProvider } from '@material-ui/core';
+import { theme } from './theme';
+import Login from "./containers/login";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <ThemeProvider theme={theme}>
+      <Login />
+    </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);
