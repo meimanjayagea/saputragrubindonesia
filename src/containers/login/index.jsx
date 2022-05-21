@@ -46,7 +46,7 @@ const login = () => {
             Saputra Group Indonesia
           </Label>
         </Box>
-          <Label align={"center"}>Silahkan Masukkan Username dan Kata Sandi</Label>
+          <Label align={"center"}>Silahkan Masukkan Username dan Password</Label>
         <Box
           mb="3"
           display="flex"
